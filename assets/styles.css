@@ -1,0 +1,31 @@
+.wrap.soko-wrap th{
+	display:none;
+}
+
+.wrap.soko-wrap h2{
+	color: #23282d;
+    font-size: 1.1em;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.wrap.soko-wrap .form-table td{
+    padding: 0;
+}
+
+
+@media( min-width: 600px ){
+	.wrap.soko-wrap{
+		max-width: 800px;
+	}
+	.soko-input{
+		max-width: 300px;
+		width: 300px;
+	}
+}
+
+.save-first{
+    color: grey;
+    display: inline-block;
+    margin: 6px 0 0 5px;
+}
